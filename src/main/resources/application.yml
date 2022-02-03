@@ -12,6 +12,9 @@ spring:
         web-allow-others: true
       path: /h2
 
+  jpa:
+    generate-ddl: true
+
 server:
   port: 8080
 
